@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: 'Century Gothic', sans-sarif;
+  scroll-behavior: smooth;
+}
+#navbarToggler h1{
+	font-weight: bolder;
+	font-size: 2rem;
+}
+#navbarToggler .navbar-nav li{
+  background-color: rgba(0,0,0,0.4);
+  width: 70px;
+  height: 60px;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 5%;
+  padding: 12px;
+}
+#hero{
+  	background: url(images/bg2.jpg) no-repeat;
+  	background-size: cover;
+ 	height:100vh;
+  	display: flex;
+  	color: white;
+  	align-items: center;
+}
+
+.profilePic{
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  width: 250px;
+  height: 280px;
+  padding: 5px;
+  border-radius: 5%;
+  text-align: center;
+}
+img{
+  float: center;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0,0,0,0.9)
+}
+.herotxt{
+	padding-top: 10%;
+}
+.herotxt h2{
+	font-weight: bold;
+}
+.herotxt a{
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+}
+.btn-success, .btn-success:hover, .btn-success:active, .btn-success:visited {
+    background-color: #817C4C;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+#about{
+  	height: 100vh;
+  	background: url(images/about1-bg.jpg) no-repeat;
+  	background-size: cover;
+  	display: flex;
+  	align-items: center;
+
+}
+.title{
+	font-size: 4rem;
+	font-weight: bolder;
+	text-align: center;
+}
+.aboutPic{
+	border-radius: 2%;
+ 	width: 50%;
+ 	height: 100%;
+ }
+.abPic{
+	text-align: center;
+}
+#about p{
+	font-size: 2rem;
+	font-weight: bold;
+	color: white;
+}
+#services{
+  	height: 100vh;
+  	background: url(images/services-bg.jpg) no-repeat;
+  	background-size: cover;
+  	display: flex;
+  	color: white;
+}
+.srtxt{
+	padding-top: 5%;
+	text-align: center;
+}
+.card{
+	text-align: left;
+	margin-top: 5%;
+	background-color: rgba(0,0,0,0.4);
+}
+.card-body p{
+	font-size: 1.1rem;
+	line-height: 2rem;
+
+}
+.icon{
+	background-color: #5D5471;
+  text-align: center;
+ 	color: white;
+ 	width: 100px;
+ 	height: 100px;
+ 	padding: 5px;
+  border-radius: 50%;
+}
+#projects{
+  	height: 100vh;
+  	background: url(images/projects-bg.jpg) no-repeat;
+  	background-size: cover;
+  	display: flex;
+  	color: white;
+}
+.carousel .carousel-item {
+  height: 400px;
+  text-align: center;
+  color: #white;
+}
+.carousel .carousel-item img {
+  position: center;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height:60%;
+  border-radius: 2%;
+  margin-left: 25%;
+}
+.carousel .carousel-item .pr{
+  background: rgba(0,0,0,0.4);
+}
+
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+}
+
+#contact{
+    height: 100vh;
+    background: url(images/contact-bg.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    color: white;
+}
+#contact .contact{
+  flex-direction: column;
+  text-align: center;
+  padding-top: 2%;
+}
+
+#contact p{
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 50px;
+}
+#contact h3{
+  font-weight: bold;
+  font-size: 1.8rem;
+
+}
+
+#contact .card{
+  margin: 2%;
+}
+
+#contact h2{
+  padding-top: 7%;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#contact li{
+  background-color: rgba(0,0,0,0.4);
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+  padding-left: 40%;
+  text-align: center;
+  border-radius: 5%;
+  margin-top: 2%;
+  padding: 12px;
+  display: inline-block;
+  list-style: none; 
+}
+
+li{
+  display: inline-block;
+  list-style: none; 
+  padding: 12px;
+}
+a i{ 
+  transition: all 0.2s linear
+ }
+ a:hover i{
+  transform: scale(1.4);
+ }
+
+.footer{
+	height: 100px;
+	font-size: 1.1rem;
+}
+@media screen and (max-width: 576px){
+  	#projects{
+  		height: 50% !important;
+  	}
+    #services{
+      height: 50% !important;
+    }
+    #contact{
+      height: 50% !important;
+    }
+    #about{
+      height: 50% !important;
+    }
+    #hero{
+      height: 50% !important;
+    }
+
+
+
+}
+
